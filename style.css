@@ -1,0 +1,202 @@
+
+body{
+  background-color: gainsboro;
+  font-size: 20px;
+}
+@media (min-width: 1200px){
+  body{
+    font-size: 30px;
+  }
+}
+.row{
+	margin: 10%;
+	height: auto;
+  clear: both;
+  background-color: white;#EDEDED;
+}
+header{
+	text-align: center;
+	width: 100%;
+  height: auto;
+}
+hr{
+  margin: 2%;
+}
+.title{
+  font-size: 1em;
+}
+.imageresponsive{
+  width: 100%;
+}
+#cara{
+  width: 20%;
+  margin-top: -10%;
+}
+
+.circulo {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: gainsboro;
+}
+.col{
+  float: left;
+	height: auto;
+}
+
+@media (max-width: 630px){
+  .col-md-6{
+    width: 100%;
+  }
+  .col-md-4{
+    width: 100%;
+  }
+  .row{
+    margin: 10% 0%; 
+  }
+}
+@media (min-width: 631px){
+  .col-md-6{
+    width: 60%;
+  }
+  .col-md-4{
+    width: 40%;
+  }
+}
+@media (min-width: 300px){
+  .col-md-9{
+    width: 90%;
+  }
+  .col-md-8{
+    width: 80%;
+  }
+  .col-md-2{
+    width: 20%;
+  }
+  .col-md-1{
+    width: 10%;
+  }
+}
+#main-col-izda{
+}
+#main-col-drcha{
+}
+footer{
+	text-align: right;
+	font-size: 0.5em;
+	padding: 0.2vw;
+	box-sizing: border-box;
+	width: 100%;
+	clear: both;
+}
+.box{
+	padding: 1% 2%;
+	width: 100%;
+	height: auto;
+  font-size: 0.6em;
+  box-sizing: border-box;
+}
+.box h1{
+	color: red;
+	font-size: 0.8rem
+}
+.imageresponsive{
+	width: 100%
+}
+.educacion, .experiencia{
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.7vw;
+}
+.clearfix{
+  clear: both;
+}
+.bubble{
+	background-color: lightgrey;
+	padding: 1vw;
+	box-sizing: border-box;
+  float: right;
+}
+.bubble {
+    background-color: lightgrey;
+    border-radius: 0.5vw;
+    display: inline-block;
+    padding: 1vw 1.5vw;
+    position: relative;
+    vertical-align: top;
+}
+.bubble::before {
+    top: 1em;
+    background-color: lightgrey;
+    content:"\00a0";
+    display: block;
+    height: 1vw;
+    width: 1.5vw;
+    position: absolute;
+    transform: rotate(29deg) skew(-35deg);
+    -moz-transform: rotate(29deg) skew(-35deg);
+    -ms-transform: rotate(29deg) skew(-35deg);
+    -o-transform: rotate(29deg) skew(-35deg);
+    -webkit-transform: rotate(29deg) skew(-35deg);
+}
+.me::before {
+    left: -0.7vw;
+}
+.pointer {
+    height: 1em;
+    width: 1em;
+    float: left;
+    margin-left: -1em
+}
+.pointer span {
+    background: black;   /* body background */
+    width: 100%;
+    height: 100%;
+}
+.pointer .top {
+    border-top-left-radius: 1em;
+    float: left;
+}
+.pointer .bottom {
+    border-bottom-left-radius: 1em;
+    float: left;
+}
+li{
+  padding-bottom: 0.3vw;
+}
+.skill{
+  font-size: 0.9em;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 0.4vw;
+  margin-bottom: 0.4vw
+}
+.idioma{
+  border-bottom: 0.1vw;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  padding: 0.3vw
+}
+.stars_container{
+  float: right;
+  margin-top: -0.5em;
+  font-size: 1.3em;
+  clear:both;
+}
+.stars_marked{
+  float: left;
+  color: red
+}
+.stars_not_marked{
+  float: left;
+}
+.hobbie{
+  float: left;
+  background-color: #80004e;
+  color: white;
+  font-weight: bold;
+  padding: 0.5vw;
+  margin: 0.2vw;
+  border-style: outset;
+  border-color: #80007a;
+}
